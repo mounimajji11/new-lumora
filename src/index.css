@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-main: #111713;
+    --bg-sidebar: #0C120F;
+    --accent-primary: #53D6A3;
+    --accent-secondary: #A6E8CC;
+    --text-primary: #F3F1E8;
+    --text-secondary: #A0AEA4;
+    --border-subtle: #29382F;
+    --msg-assistant: #19221C;
+    --msg-user: #B5EBD0;
+    --msg-user-text: #14251B;
+    --bg-code: #0A0F0C;
+    --color-error: #E57373;
+    --color-success: #53D6A3;
+  }
+
+  /* Light Theme Variant */
+  [data-theme="light"] {
+    --bg-main: #F7F6F0;
+    --bg-sidebar: #EFECE1;
+    --accent-primary: #1C9163;
+    --accent-secondary: #3EC08D;
+    --text-primary: #141E17;
+    --text-secondary: #56695C;
+    --border-subtle: #D5DCD4;
+    --msg-assistant: #FFFFFF;
+    --msg-user: #22845C;
+    --msg-user-text: #FFFFFF;
+    --bg-code: #1A231D;
+    --color-error: #C94A4A;
+    --color-success: #1C9163;
+  }
+
+  body {
+    background-color: var(--bg-main);
+    color: var(--text-primary);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    overflow-x: hidden;
+  }
+
+  /* Custom elegant scrollbars matching Obsidian/Jade */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--border-subtle);
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--accent-primary);
+  }
+}

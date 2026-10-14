@@ -1,0 +1,15 @@
+# Lumora AI — Python Dependencies (Groq LPU Integration & Vercel Serverless)
+# Official Groq Python SDK for ultra-fast LPU inference
+groq>=0.9.0
+
+# Serverless API Framework for Vercel Python Runtime
+flask>=3.0.0
+werkzeug>=3.0.0
+
+# Environment Variable Security
+python-dotenv>=1.0.0
+
+# Terminal Formatting and Evaluation Reporting
+rich>=13.7.0
+
+# Note: For optional local desktop Streamlit UI, run: pip install streamlit

@@ -1,0 +1,8 @@
+{
+  "name": "Lumora AI — Advanced LLM Chatbot",
+  "description": "Lumora AI is an intelligent assistant designed to answer questions, explain concepts, assist with programming, summarize information, and help users explore knowledge through artificial intelligence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
+
