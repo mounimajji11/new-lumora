@@ -185,3 +185,5 @@ The benchmark harness verifies 8 core competencies:
 
 * **Server-Side API Key:** `GROQ_API_KEY` is loaded exclusively on the server side (`vite.config.js` or `chatbot_engine.py`). It is never bundled into browser code.
 * **Rate Limits:** Groq's free tier provides high token rates but enforces requests-per-minute (RPM) limits. The backend handles 429 exceptions with exponential backoff and friendly user notifications.
+#   n e w - l u m o r a  
+ 
